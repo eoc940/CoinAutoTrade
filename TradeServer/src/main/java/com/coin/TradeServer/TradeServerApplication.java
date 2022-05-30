@@ -8,6 +8,17 @@ public class TradeServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TradeServerApplication.class, args);
+		System.out.println();
 	}
+
+	public void func() {
+		System.out.println(123);
+	}
+
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+
 
 }
