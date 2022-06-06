@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import RxSwift
 
-class ViewController: UIViewController {
+class MainVC: UIViewController {
+    
+    @IBOutlet weak var menuButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
 }
 
